@@ -72,3 +72,32 @@ body {
     margin-left : auto;
     margin-right : auto;
     }
+
+  .homepage {
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top :100px;
+  }
+
+  .homepageimage {
+    width: 200px
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    margin-left : auto;
+    margin-right : auto;
+  }
+
+  .linkbutton {
+    padding : 10px;
+    background-color: #2081c3;
+    margin: 20px;
+    width: 200px;
+    color: #f7f9f9;
+    text-decoration: none;
+    border-radius: 10px;;
+  }
