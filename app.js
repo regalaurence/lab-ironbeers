@@ -41,7 +41,7 @@ app.get('/random-beers', (req, res) => {
     .getRandom()
     .then(responseFromAPI => {
       console.log('Random from the database: ', responseFromAPI)
-      res.render('random-beers', {responseFromAPI: responseFromAPI})
+      res.render('random-beers', {responseFromAPI/*this could be anything, even "choco"*/: responseFromAPI /*the array*/})
     })
     .catch(error => console.log(error));
   ;
